@@ -1,0 +1,28 @@
+{
+	"name": "property-accumulator",
+	"version": "1.0.0",
+	"description": "Build properties in your extended class that graft the parent's implementation on",
+	"main": "property-accumulator.js",
+	"scripts": {
+		"test": "node .test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/property-accumulator"
+	},
+	"keywords": [],
+	"author": "rektide de la faye",
+	"license": "X11",
+	"devDependencies": {
+		"@std/esm": "^0.17.1",
+		"tape": "^4.8.0"
+	},
+	"dependencies": {
+		"object-assign-all": "^1.0.0"
+	},
+	"esm": true,
+	"@std/esm": {
+		"esm": "js"
+	},
+	"module": "property-accumulator.js"
+}
